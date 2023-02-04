@@ -13,7 +13,7 @@ var taxBracket = [
   { from: 0, to: 18200, percentage: 0, amount: 0 },
   { from: 18201, to: 37000, percentage: 0.19, over: 18200, amount: 0 },
   { from: 37001, to: 90000, percentage: 0.325, over: 37000, amount: 3572 },
-  { from: 90001, to: 180000, percentage: 0.325, over: 45000, amount: 5092 },
+  { from: 90001, to: 180000, percentage: 0.37, over: 90000, amount: 20797 },
   { from: 180001, to: Infinity, percentage: 0.45, over: 180000, amount: 54097 },
 ];
 
